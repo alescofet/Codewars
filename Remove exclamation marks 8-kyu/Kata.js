@@ -1,0 +1,16 @@
+/* 
+
+Link: https://www.codewars.com/kata/57a0885cbb9944e24c00008e
+
+Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+
+*/
+
+function removeExclamationMarks(s) {
+    let answer
+    for (let i=0;i<s.length;i++){
+    s = s.replace(`!`,``)
+    answer = s}
+    return answer;
+  }
